@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.min.js"></script>
     <script src="data.js"></script>
     <script src="config.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="chart-container">
-        <canvas id="chart"></canvas>
+      <canvas id="chart"></canvas>
     </div>
     <div id="form">
-        <span>Characteristic(x): <input type="text" id="characteristic"></span><br>
-        <span>Quality(y): <input type="text" id="quality"></span><br>
-        <span>Input: <input type="text" id="plot">Input</span><br>
-        <span>Predict Output:: <input type="text" id="predict">Predict</span><br>
-        <span>Output: <input type="text" id="output"></span><br>
+      <span>Characteristic (x): <input type="text" id="characteristic" /></span
+      ><br><br>
+      <span>Quality (y): <input type="text" id="quality" /></span><br><br>
+      <span>Input: <button id="plot">Input</button></span><br><br>
+      <span>Predict Output:: <button id="predict">Predict</button></span><br><br>
+      <span>Output: <span id="output"></span></span><br><br>
     </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
