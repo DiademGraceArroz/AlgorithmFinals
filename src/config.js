@@ -1,3 +1,1 @@
-function chartData() {
-    
-}
+function chartData() {}
