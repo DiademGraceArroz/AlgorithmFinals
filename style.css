@@ -1,13 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 23px;
-  background-color: #f2f2f2;
+  background-color: lightskyblue;
   margin: 0;
   padding: 20px;
-  background-image: url("https://www.nammfoundation.org/sites/default/files/styles/project_article_primary_721x405/public/files/2019-09/Music%20blog.jpg?itok=O7RfJUT5");
-  background-size: 180vw 180vh;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 h1 {
@@ -28,6 +24,14 @@ label {
   margin-right: 10px;
 }
 
+h2 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
 #result {
   display: block;
   margin: auto;
@@ -36,6 +40,7 @@ label {
   font-weight: bold;
   color: red;
 }
+
 p {
   text-align: center;
 }
